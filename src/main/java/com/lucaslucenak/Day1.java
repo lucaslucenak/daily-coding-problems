@@ -1,5 +1,7 @@
 package com.lucaslucenak;
 
+import com.lucaslucenak.enums.Difficulty;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -13,6 +15,8 @@ import java.util.Set;
  * For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
  */
 public class Day1 {
+
+    private Difficulty difficulty = Difficulty.EASY;
 
     public Day1() {
     }
